@@ -1,6 +1,5 @@
 choco "googlechrome"
 choco "discord"
-choco "docker"
 choco "vscode"
 choco "nodejs"
 choco "winrar"
