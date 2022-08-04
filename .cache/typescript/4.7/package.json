@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "dependencies": {
+    "types-registry": "^0.1.603"
+  },
+  "devDependencies": {
+    "@types/chart.js": "^2.9.37",
+    "@types/core-js": "^2.5.5",
+    "@types/eslint": "^8.4.5",
+    "@types/isotope-layout": "^3.0.9",
+    "@types/jquery": "^3.5.14",
+    "@types/js-cookie": "^3.0.2",
+    "@types/masonry-layout": "^4.2.5",
+    "@types/qrcode": "^1.4.2",
+    "@types/slick-carousel": "^1.6.37",
+    "@types/video.js": "^7.3.42",
+    "@types/vue-the-mask": "^0.11.1",
+    "@types/webpack": "^5.28.0"
+  }
+}

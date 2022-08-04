@@ -1,0 +1,14 @@
+{
+	"generators": {
+		"7c80bec2": {
+			"type": "local",
+			"path": "/home/orsanor/.npm/_npx/1723/lib/node_modules/create-nuxt-app/lib",
+			"hash": "7c80bec2"
+		}
+	},
+	"answers": {
+		"7c80bec2__npm__": {
+			"gitUsername": "orsanor"
+		}
+	}
+}

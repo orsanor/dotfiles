@@ -1,0 +1,38 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/home/orsanor/.nvm/versions/node/v14.20.0/bin/node',
+1 verbose cli   '/home/orsanor/.nvm/versions/node/v14.20.0/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'dev'
+1 verbose cli ]
+2 info using npm@6.14.17
+3 info using node@v14.20.0
+4 verbose run-script [ 'predev', 'dev', 'postdev' ]
+5 info lifecycle pokemon@0.0.0~predev: pokemon@0.0.0
+6 info lifecycle pokemon@0.0.0~dev: pokemon@0.0.0
+7 verbose lifecycle pokemon@0.0.0~dev: unsafe-perm in lifecycle true
+8 verbose lifecycle pokemon@0.0.0~dev: PATH: /home/orsanor/.nvm/versions/node/v14.20.0/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/home/orsanor/estudo/torugo/pokemon/pokemon/node_modules/.bin:/home/orsanor/.vscode-server/bin/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9/bin/remote-cli:/home/orsanor/.nvm/versions/node/v14.20.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Users/orsan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/orsan/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/orsan/AppData/Roaming/npm:/snap/bin
+9 verbose lifecycle pokemon@0.0.0~dev: CWD: /home/orsanor/estudo/torugo/pokemon/pokemon
+10 silly lifecycle pokemon@0.0.0~dev: Args: [ '-c', 'vite' ]
+11 info lifecycle pokemon@0.0.0~dev: Failed to exec dev script
+12 verbose stack Error: pokemon@0.0.0 dev: `vite`
+12 verbose stack spawn ENOENT
+12 verbose stack     at ChildProcess.<anonymous> (/home/orsanor/.nvm/versions/node/v14.20.0/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:48:18)
+12 verbose stack     at ChildProcess.emit (events.js:400:28)
+12 verbose stack     at maybeClose (internal/child_process.js:1088:16)
+12 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:296:5)
+13 verbose pkgid pokemon@0.0.0
+14 verbose cwd /home/orsanor/estudo/torugo/pokemon/pokemon
+15 verbose Linux 5.10.16.3-microsoft-standard-WSL2
+16 verbose argv "/home/orsanor/.nvm/versions/node/v14.20.0/bin/node" "/home/orsanor/.nvm/versions/node/v14.20.0/bin/npm" "run" "dev"
+17 verbose node v14.20.0
+18 verbose npm  v6.14.17
+19 error code ELIFECYCLE
+20 error syscall spawn
+21 error file sh
+22 error errno ENOENT
+23 error pokemon@0.0.0 dev: `vite`
+23 error spawn ENOENT
+24 error Failed at the pokemon@0.0.0 dev script.
+24 error This is probably not a problem with npm. There is likely additional logging output above.
+25 verbose exit [ 1, true ]

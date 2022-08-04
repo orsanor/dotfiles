@@ -1,0 +1,27 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/home/orsanor/.nvm/versions/node/v14.20.0/bin/node',
+1 verbose cli   '/home/orsanor/.nvm/versions/node/v14.20.0/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'serve'
+1 verbose cli ]
+2 info using npm@6.14.17
+3 info using node@v14.20.0
+4 verbose stack Error: missing script: serve
+4 verbose stack     at run (/home/orsanor/.nvm/versions/node/v14.20.0/lib/node_modules/npm/lib/run-script.js:155:19)
+4 verbose stack     at /home/orsanor/.nvm/versions/node/v14.20.0/lib/node_modules/npm/lib/run-script.js:63:5
+4 verbose stack     at /home/orsanor/.nvm/versions/node/v14.20.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:116:5
+4 verbose stack     at /home/orsanor/.nvm/versions/node/v14.20.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:436:5
+4 verbose stack     at checkBinReferences_ (/home/orsanor/.nvm/versions/node/v14.20.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:391:45)
+4 verbose stack     at final (/home/orsanor/.nvm/versions/node/v14.20.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:434:3)
+4 verbose stack     at then (/home/orsanor/.nvm/versions/node/v14.20.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:161:5)
+4 verbose stack     at ReadFileContext.<anonymous> (/home/orsanor/.nvm/versions/node/v14.20.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:367:18)
+4 verbose stack     at ReadFileContext.callback (/home/orsanor/.nvm/versions/node/v14.20.0/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:123:16)
+4 verbose stack     at FSReqCallback.readFileAfterOpen [as oncomplete] (fs.js:282:13)
+5 verbose cwd /home/orsanor/estudo/teste
+6 verbose Linux 5.10.16.3-microsoft-standard-WSL2
+7 verbose argv "/home/orsanor/.nvm/versions/node/v14.20.0/bin/node" "/home/orsanor/.nvm/versions/node/v14.20.0/bin/npm" "run" "serve"
+8 verbose node v14.20.0
+9 verbose npm  v6.14.17
+10 error missing script: serve
+11 verbose exit [ 1, true ]
