@@ -9,10 +9,6 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 choco feature enable -n=allowGlobalConfirmation
 
-
-### Oh My ZSH
-sudo sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
 ### Setup dos dotfiles
 git clone https://github.com/orsanor/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
