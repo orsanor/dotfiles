@@ -10,7 +10,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 choco feature enable -n=allowGlobalConfirmation
 
 ### Setup dos dotfiles
-git clone https://github.com/orsanor/dotfiles.git ~/.dotfiles
+git clone https://github.com/orsanor/dotfiles/tree/master/.dotfiles ~/.dotfiles
 cd ~/.dotfiles
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 
